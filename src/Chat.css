@@ -33,7 +33,7 @@
 
 .chat__body {
   flex: 1;
-  background-image: url('https://raw.githubusercontent.com/Mat955/test/master/bgc1.jpg?token=ALAVBHJP4MNMK6PEOWRR4X27I2QVW');
+  background-image: url('https://raw.githubusercontent.com/Mat955/test/master/bgc1.jpg?token=ALAVBHMIIR7NYZF4XS2LWMS7I6DIM');
   background-repeat: repeat;
   background-position: center;
   padding: 30px;
@@ -72,4 +72,25 @@
   align-items: center;
   height: 62px;
   border-top: 1px solid lightgray;
+}
+
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+}
+
+.chat__footer > form > button {
+  display: none;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: gray;
 }
