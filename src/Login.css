@@ -26,3 +26,9 @@
   background-color: #3758AF !important;
   color: white;
 }
+
+@media (max-width: 640px) {
+  .login__container {
+    padding: 50px 0;
+  }
+}

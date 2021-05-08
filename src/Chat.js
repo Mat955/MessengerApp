@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import './Chat.css'
 import { Avatar, IconButton } from '@material-ui/core';
 import SearchOutlined from '@material-ui/icons/SearchOutlined';
 import AttachFile from '@material-ui/icons/AttachFile';
@@ -7,6 +6,7 @@ import MoreVert from '@material-ui/icons/MoreVert';
 import InsertEmoticonIcon from '@material-ui/icons/InsertEmoticon';
 import MicIcon from '@material-ui/icons/Mic';
 import { useParams } from 'react-router-dom';
+import './Chat.css'
 import db from './firebase';
 import firebase from 'firebase';
 import { useStateValue } from './StateProvider';
@@ -43,7 +43,6 @@ function Chat() {
 
   const sendMessage = (e) => {
     e.preventDefault();
-    console.log('You type >>>', input);
 
     db.collection('rooms').doc(roomId).collection('messages').add({
       messages: input,

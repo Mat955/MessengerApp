@@ -33,7 +33,7 @@
 
 .chat__body {
   flex: 1;
-  background-image: url('https://raw.githubusercontent.com/Mat955/test/master/bgc1.jpg?token=ALAVBHMIIR7NYZF4XS2LWMS7I6DIM');
+  background-image: url('./background-image.jpg');
   background-repeat: repeat;
   background-position: center;
   padding: 30px;
@@ -63,6 +63,7 @@
 
 .chat__reciever {
   margin-left: auto;
+  margin-top: 20px;
   background-color: #dcf8c6;
 }
 
